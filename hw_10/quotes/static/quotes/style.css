@@ -6,7 +6,6 @@
     box-shadow: 2px 2px 3px #333333;
 }
 
-
 .quote span.text {
     display: block;
     margin-bottom: 5px;
@@ -14,17 +13,14 @@
     font-style: italic;
 }
 
-
 .quote small.author {
     font-weight: bold;
     color: #3677E8;
 }
 
-
 .quote .tags {
     margin-top: 10px;
 }
-
 
 .tag {
     padding: 2px 5px;
@@ -33,7 +29,6 @@
     font-size: small;
     background-color: #7CA3E6;
 }
-
 
 .pager {
     font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -46,11 +41,9 @@
     text-align: center;
 }
 
-
 .pager li {
     display: inline;
 }
-
 
 .pager .next>a, .pager .next>span {
     float: right;
@@ -63,7 +56,6 @@
     border: 1px solid #dddddd;
     border-radius: 15px;
 }
-
 
 .disabled {
     color: #333333;

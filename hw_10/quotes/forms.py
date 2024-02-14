@@ -13,15 +13,6 @@ class QuoteForm(ModelForm):
         fields = ['quote', 'tags', 'author']
 
 
-# class TagForm(ModelForm):
-
-#     name = CharField(min_length=3, max_length=50, required=True, widget=TextInput())
-
-#     class Meta:
-#         model = Tag
-#         fields = ['name']
-
-
 class AuthorForm(ModelForm):
 
     fullname = CharField(max_length=100, required=True, widget=TextInput())
