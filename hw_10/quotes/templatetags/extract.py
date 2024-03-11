@@ -2,6 +2,7 @@ from django import template
 
 from ..utils import get_mongodb
 
+
 register = template.Library()
 
 

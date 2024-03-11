@@ -1,7 +1,9 @@
 import json 
+
 from bson.objectid import ObjectId
 
 from pymongo import MongoClient
+
 
 client = MongoClient('mongodb://localhost')
 
@@ -9,7 +11,6 @@ db = client.hw_10
 
 with open('quotes.json', 'r') as fd:
     quotes = json.load(fd)
-
 
 
 for quote in quotes:

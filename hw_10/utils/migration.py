@@ -1,7 +1,8 @@
 import os
-import django
 
+import django
 from pymongo import MongoClient
+
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'hw_10.settings')
 django.setup()
